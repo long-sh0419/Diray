@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010DF038186A7B42008A12E3 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010DF037186A7B42008A12E3 /* CameraViewController.m */; };
+		010DF03B186A8279008A12E3 /* ImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 010DF03A186A8279008A12E3 /* ImageStore.m */; };
+		010DF03E186A8F1F008A12E3 /* DiaryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 010DF03D186A8F1F008A12E3 /* DiaryStore.m */; };
+		010DF040186AAE91008A12E3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010DF03F186AAE91008A12E3 /* AVFoundation.framework */; };
+		010DF043186AAF65008A12E3 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010DF042186AAF65008A12E3 /* RecordViewController.m */; };
 		0146E7A71868301600FFDC0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0146E7A61868301600FFDC0A /* Foundation.framework */; };
 		0146E7A91868301600FFDC0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0146E7A81868301600FFDC0A /* CoreGraphics.framework */; };
 		0146E7AB1868301600FFDC0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0146E7AA1868301600FFDC0A /* UIKit.framework */; };
@@ -19,6 +24,14 @@
 		0146E7C21868301600FFDC0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0146E7AA1868301600FFDC0A /* UIKit.framework */; };
 		0146E7CA1868301600FFDC0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0146E7C81868301600FFDC0A /* InfoPlist.strings */; };
 		0146E7CC1868301600FFDC0A /* DirayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0146E7CB1868301600FFDC0A /* DirayTests.m */; };
+		0146E7D81868309600FFDC0A /* Diary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0146E7D71868309600FFDC0A /* Diary.m */; };
+		0146E7DA186831C500FFDC0A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0146E7D9186831C500FFDC0A /* Storyboard.storyboard */; };
+		0146E7DD1868321900FFDC0A /* DiaryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0146E7DC1868321900FFDC0A /* DiaryListViewController.m */; };
+		0146E7E0186835F000FFDC0A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0146E7DF186835F000FFDC0A /* DetailViewController.m */; };
+		01B5BF8A186C0428001C5915 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01B5BF89186C0428001C5915 /* Settings.bundle */; };
+		01B5BF8C186C1862001C5915 /* oneInKeyboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B5BF8B186C1862001C5915 /* oneInKeyboard.jpg */; };
+		01B5BF8E186C1E74001C5915 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B5BF8D186C1E74001C5915 /* HeaderView.xib */; };
+		01D64C0D186A682000A82187 /* CreateDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D64C0C186A682000A82187 /* CreateDiaryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010DF036186A7B42008A12E3 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		010DF037186A7B42008A12E3 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		010DF039186A8279008A12E3 /* ImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageStore.h; sourceTree = "<group>"; };
+		010DF03A186A8279008A12E3 /* ImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageStore.m; sourceTree = "<group>"; };
+		010DF03C186A8F1F008A12E3 /* DiaryStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryStore.h; sourceTree = "<group>"; };
+		010DF03D186A8F1F008A12E3 /* DiaryStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryStore.m; sourceTree = "<group>"; };
+		010DF03F186AAE91008A12E3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		010DF041186AAF65008A12E3 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		010DF042186AAF65008A12E3 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
 		0146E7A31868301600FFDC0A /* Diray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diray.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0146E7A61868301600FFDC0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0146E7A81868301600FFDC0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +70,18 @@
 		0146E7C71868301600FFDC0A /* DirayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DirayTests-Info.plist"; sourceTree = "<group>"; };
 		0146E7C91868301600FFDC0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0146E7CB1868301600FFDC0A /* DirayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirayTests.m; sourceTree = "<group>"; };
+		0146E7D61868309600FFDC0A /* Diary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diary.h; sourceTree = "<group>"; };
+		0146E7D71868309600FFDC0A /* Diary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diary.m; sourceTree = "<group>"; };
+		0146E7D9186831C500FFDC0A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0146E7DB1868321900FFDC0A /* DiaryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryListViewController.h; sourceTree = "<group>"; };
+		0146E7DC1868321900FFDC0A /* DiaryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryListViewController.m; sourceTree = "<group>"; };
+		0146E7DE186835F000FFDC0A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0146E7DF186835F000FFDC0A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		01B5BF89186C0428001C5915 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		01B5BF8B186C1862001C5915 /* oneInKeyboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oneInKeyboard.jpg; sourceTree = "<group>"; };
+		01B5BF8D186C1E74001C5915 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		01D64C0B186A682000A82187 /* CreateDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateDiaryViewController.h; sourceTree = "<group>"; };
+		01D64C0C186A682000A82187 /* CreateDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateDiaryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010DF040186AAE91008A12E3 /* AVFoundation.framework in Frameworks */,
 				0146E7A91868301600FFDC0A /* CoreGraphics.framework in Frameworks */,
 				0146E7AB1868301600FFDC0A /* UIKit.framework in Frameworks */,
 				0146E7A71868301600FFDC0A /* Foundation.framework in Frameworks */,
@@ -77,6 +112,10 @@
 		0146E79A1868301600FFDC0A = {
 			isa = PBXGroup;
 			children = (
+				01B5BF8D186C1E74001C5915 /* HeaderView.xib */,
+				01B5BF8B186C1862001C5915 /* oneInKeyboard.jpg */,
+				01B5BF89186C0428001C5915 /* Settings.bundle */,
+				0146E7D51868307100FFDC0A /* Mode */,
 				0146E7AC1868301600FFDC0A /* Diray */,
 				0146E7C51868301600FFDC0A /* DirayTests */,
 				0146E7A51868301600FFDC0A /* Frameworks */,
@@ -96,6 +135,7 @@
 		0146E7A51868301600FFDC0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				010DF03F186AAE91008A12E3 /* AVFoundation.framework */,
 				0146E7A61868301600FFDC0A /* Foundation.framework */,
 				0146E7A81868301600FFDC0A /* CoreGraphics.framework */,
 				0146E7AA1868301600FFDC0A /* UIKit.framework */,
@@ -107,6 +147,17 @@
 		0146E7AC1868301600FFDC0A /* Diray */ = {
 			isa = PBXGroup;
 			children = (
+				010DF041186AAF65008A12E3 /* RecordViewController.h */,
+				010DF042186AAF65008A12E3 /* RecordViewController.m */,
+				010DF036186A7B42008A12E3 /* CameraViewController.h */,
+				010DF037186A7B42008A12E3 /* CameraViewController.m */,
+				01D64C0B186A682000A82187 /* CreateDiaryViewController.h */,
+				01D64C0C186A682000A82187 /* CreateDiaryViewController.m */,
+				0146E7DE186835F000FFDC0A /* DetailViewController.h */,
+				0146E7DF186835F000FFDC0A /* DetailViewController.m */,
+				0146E7DB1868321900FFDC0A /* DiaryListViewController.h */,
+				0146E7DC1868321900FFDC0A /* DiaryListViewController.m */,
+				0146E7D9186831C500FFDC0A /* Storyboard.storyboard */,
 				0146E7B51868301600FFDC0A /* AppDelegate.h */,
 				0146E7B61868301600FFDC0A /* AppDelegate.m */,
 				0146E7B81868301600FFDC0A /* Images.xcassets */,
@@ -142,6 +193,19 @@
 				0146E7C81868301600FFDC0A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0146E7D51868307100FFDC0A /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				0146E7D61868309600FFDC0A /* Diary.h */,
+				0146E7D71868309600FFDC0A /* Diary.m */,
+				010DF039186A8279008A12E3 /* ImageStore.h */,
+				010DF03A186A8279008A12E3 /* ImageStore.m */,
+				010DF03C186A8F1F008A12E3 /* DiaryStore.h */,
+				010DF03D186A8F1F008A12E3 /* DiaryStore.m */,
+			);
+			name = Mode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +283,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B5BF8A186C0428001C5915 /* Settings.bundle in Resources */,
 				0146E7B11868301600FFDC0A /* InfoPlist.strings in Resources */,
+				01B5BF8C186C1862001C5915 /* oneInKeyboard.jpg in Resources */,
+				01B5BF8E186C1E74001C5915 /* HeaderView.xib in Resources */,
 				0146E7B91868301600FFDC0A /* Images.xcassets in Resources */,
+				0146E7DA186831C500FFDC0A /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D64C0D186A682000A82187 /* CreateDiaryViewController.m in Sources */,
+				0146E7E0186835F000FFDC0A /* DetailViewController.m in Sources */,
+				0146E7DD1868321900FFDC0A /* DiaryListViewController.m in Sources */,
+				0146E7D81868309600FFDC0A /* Diary.m in Sources */,
+				010DF03E186A8F1F008A12E3 /* DiaryStore.m in Sources */,
 				0146E7B71868301600FFDC0A /* AppDelegate.m in Sources */,
+				010DF038186A7B42008A12E3 /* CameraViewController.m in Sources */,
 				0146E7B31868301600FFDC0A /* main.m in Sources */,
+				010DF03B186A8279008A12E3 /* ImageStore.m in Sources */,
+				010DF043186AAF65008A12E3 /* RecordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -348,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -441,6 +517,7 @@
 				0146E7D11868301600FFDC0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0146E7D21868301600FFDC0A /* Build configuration list for PBXNativeTarget "DirayTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +526,7 @@
 				0146E7D41868301600FFDC0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
